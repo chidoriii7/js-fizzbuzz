@@ -15,7 +15,7 @@ for (let number = 1; number <= 100; number++ ){
         containerDOM.append(divElement)
         divElement.append(number)
         // (colore rosso)
-        divElement.classList.add('box')
+        divElement.classList.add('box', 'box-fizzbuzz')
         console.log('FizzBuzz');
 
 
@@ -26,7 +26,7 @@ for (let number = 1; number <= 100; number++ ){
         containerDOM.append(divElement)
         divElement.append('Fizz')
         // -(colore verde chiaro)
-        divElement.classList.add('box')
+        divElement.classList.add('box', 'box-fizz')
         console.log('fizz');
         
         
@@ -38,7 +38,7 @@ for (let number = 1; number <= 100; number++ ){
 
 
         // (colore giallo)
-        divElement.classList.add('box')
+        divElement.classList.add('box', 'box-buzz')
 
         console.log('buzz');
 
